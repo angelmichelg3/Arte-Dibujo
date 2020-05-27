@@ -1,0 +1,73 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper{
+  background: linear-gradient(45deg, #00000078, #00000078), url(img/graf.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.form-signing{
+  width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  background-color: #00000078;
+  padding: 15px;
+}
+
+.form-signing h1{
+  padding: 13px 0;
+  text-align: center;
+}
+
+.input-container{
+  width: 93%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 10px;
+  margin: 15px auto;
+  border-bottom: 1px solid #868686;
+}
+
+.input-container i{
+  float: left;
+  text-align: center;
+}
+
+.input-container input{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.sign-in{
+  background: transparent;
+  border: 1px solid #868686;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.sign-in:hover{
+  border: 1px solid #000000;
+  background-color: #3c3a3a78;
+}
+p{
+  text-align: center;
+}
